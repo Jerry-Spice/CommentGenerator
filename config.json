@@ -1,0 +1,38 @@
+{
+  "extensions": [
+    {
+      "c": {
+        "comment": [
+          "/*",
+          "*/"
+        ],
+        "function": "[A-Za-z0-9_*]{3,20} [A-Za-z0-9_]{1,50}?[\\(]",
+        "structure": "FUNCTION\n * ARG\n -> DESCRIPTION\n"
+      },
+      "py": {
+        "comment": [
+          "\"\"\"",
+          "\"\"\""
+        ],
+        "function": "def [A-Za-z0-9_]{1,50}?[\\(]",
+        "structure": "FUNCTION\n * ARG\n -> DESCRIPTION\n"
+      },
+      "h": {
+        "comment": [
+          "/*",
+          "*/"
+        ],
+        "function": "[A-Za-z0-9_*]{3,20} [A-Za-z0-9_]{1,50}?[\\(]",
+        "structure": "FUNCTION\n @param ARG\n @description DESCRIPTION\n"
+      },
+      "java": {
+        "comment": [
+          "/*",
+          "*/"
+        ],
+        "function": "[A-Za-z0-9_*]{3,20} [A-Za-z0-9_]{1,50}?[\\(]",
+        "structure": "FUNCTION\n @param ARG\n @description DESCRIPTION\n"
+      }
+    }
+  ]
+}
